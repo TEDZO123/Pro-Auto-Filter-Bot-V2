@@ -205,13 +205,13 @@ async def cb_settings(bot, update: CallbackQuery):
             
             InlineKeyboardButton
                 (
-                    "About", callback_data=f"about({chat_id})"
+                    "🔧About🔧", callback_data=f"about({chat_id})"
                 )
         ],
         [
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close ➖", callback_data="close"
                 )
         ]
     ]
@@ -472,7 +472,7 @@ async def cb_info(bot, update: CallbackQuery):
             [
                 InlineKeyboardButton
                     (
-                        "🔙 Back", callback_data=f"channel_list({chat_id})"
+                        "➖ Back", callback_data=f"channel_list({chat_id})"
                     )
             ]
     )
@@ -669,7 +669,7 @@ async def cb_channel_delete(bot, update: CallbackQuery):
                 
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close ➖", callback_data="close"
                 )
         ]
     ]
@@ -1680,13 +1680,13 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤Mrk YT', url='https://t.me/MRK_YT'),
-            InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
+            InlineKeyboardButton('👿ASLU BOSS', url='https://t.me/+KBe8oc1dUo45MGZl'),
+            InlineKeyboardButton('TEDZO SIR👤', url='https://t.me/+fcYT3dZXNMdlZTVl')
         ],[
             InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
         ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Close ➖', callback_data='close')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)

@@ -58,13 +58,13 @@ async def settings(bot, update):
             
             InlineKeyboardButton
                 (
-                    "About", callback_data=f"about({chat_id})"
+                    "🔧About🔧", callback_data=f"about({chat_id})"
                 )
         ],
         [
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close ➖", callback_data="close"
                 )
         ]
     ]
